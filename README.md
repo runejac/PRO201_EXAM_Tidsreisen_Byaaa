@@ -1,6 +1,4 @@
-> PRO201 Agile (Smidig) Project exam <br/>
-> [Class description](https://www.kristiania.no/en/syllabus/school-of-economics-innovation-and-technology/first-cycle-degree/pro201/agile-project/) <br/>
-> [App @ Heroku PaaS](https://tidsreisen.herokuapp.com/)
+> PRO201 Agile (Smidig) Project exam <br/> > <a target="_blank" href="https://www.kristiania.no/en/syllabus/school-of-economics-innovation-and-technology/first-cycle-degree/pro201/agile-project/">Class description</a> > <a target="_blank" href="https://tidsreisen.herokuapp.com/">App @ Heroku PaaS</a>
 
 <h1 align="center">
 Tidsreisen Byåa 🚶‍♂🚩🌲🗺
