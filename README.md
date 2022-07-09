@@ -20,45 +20,45 @@ This application was made by a group of 8 and were graded to an A.
 
 ---
 
-<div style="display: flex; flex-direction: column; flex-wrap: wrap; width: 80%; gap: 30px">
+<div style="display: flex; flex-direction: column; flex-wrap: wrap; width: 100%; gap: 30px">
 
 <div>
-	<h4>1. Start screen</h4>
-	<div style="display: flex; flex-direction: row">
-		<img style="width: 50%" alt="start screen" src="client/src/assets/images/imgForReadme/start_screen.png"/>
-		<img style="width: 50%" alt="start screen with username" src="client/src/assets/images/imgForReadme/start_screen_username.png"/>
+	<h3>1. Start screen</h3>
+	<div style="display: flex; flex-direction: row; justify-content: center">
+		<img style="width: 30%" alt="start screen" src="client/src/assets/images/imgForReadme/start_screen.png"/>
+		<img style="width: 30%" alt="start screen with username" src="client/src/assets/images/imgForReadme/start_screen_username.png"/>
 	</div>
 </div>
 
 <div>
-	<h4>2. Introduction</h4>
-	<div style="display: flex; flex-direction: row">
-		<img style="width: 33%" alt="intro modal1" src="client/src/assets/images/imgForReadme/intro1.png"/>
-		<img style="width: 33%" alt="intro modal2" src="client/src/assets/images/imgForReadme/intro2.png"/>
-		<img style="width: 33%" alt="intro modal3" src="client/src/assets/images/imgForReadme/intro3.png"/>
+	<h3>2. Introduction</h3>
+	<div style="display: flex; flex-direction: row; justify-content: center">
+		<img style="width: 25%" alt="intro modal1" src="client/src/assets/images/imgForReadme/intro1.png"/>
+		<img style="width: 25%" alt="intro modal2" src="client/src/assets/images/imgForReadme/intro2.png"/>
+		<img style="width: 25%" alt="intro modal3" src="client/src/assets/images/imgForReadme/intro3.png"/>
 	</div>
 </div>
 
 <div>
-	<h4>3. Map</h4>
-	<div style="display: flex; flex-direction: row">
-		<img style="width: 33%" alt="intro modal1" src="client/src/assets/images/imgForReadme/map.png"/>
-		<img style="width: 33%" alt="intro modal1" src="client/src/assets/images/imgForReadme/map2.png"/>
-		<img style="width: 33%" alt="intro modal1" src="client/src/assets/images/imgForReadme/map3.png"/>
+	<h3>3. Map</h3>
+		<div style="display: flex; flex-direction: row; justify-content: center">
+		<img style="width: 25%" alt="intro modal1" src="client/src/assets/images/imgForReadme/map.png"/>
+		<img style="width: 25%" alt="intro modal1" src="client/src/assets/images/imgForReadme/map2.png"/>
+		<img style="width: 25%" alt="intro modal1" src="client/src/assets/images/imgForReadme/map3.png"/>
 	</div>
 </div>
 
 <div>
-	<h4>4. History capsule</h4>
-	<div style="display: flex; justify-content: center">
-		<img style="width: 50%" alt="intro modal1" src="client/src/assets/images/imgForReadme/history.png"/>
+	<h3>4. History capsule</h3>
+		<div style="display: flex; flex-direction: row; justify-content: center">
+		<img style="width: 30%" alt="intro modal1" src="client/src/assets/images/imgForReadme/history.png"/>
 	</div>
 </div>
 
 <div>
-	<h4>5. My findings page</h4>
-	<div style="display: flex; justify-content: center">
-		<img style="width: 50%" alt="intro modal1" src="client/src/assets/images/imgForReadme/myfindings.png"/>
+	<h3>5. My findings page</h3>
+		<div style="display: flex; flex-direction: row; justify-content: center">
+		<img style="width: 30%" alt="intro modal1" src="client/src/assets/images/imgForReadme/myfindings.png"/>
 	</div>
 </div>
 
