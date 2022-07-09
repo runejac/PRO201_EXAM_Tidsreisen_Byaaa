@@ -1,0 +1,46 @@
+.intro-content {
+  font-family: "Source Sans Pro Semibold", sans-serif;
+  margin: 2rem;
+}
+
+#modal-body {
+  padding: 0;
+}
+
+#modal-title {
+  padding: 2rem;
+  background-color: var(--backgroundColorLetthet);
+}
+
+.border-radius-2 div {
+  background-color: var(--backgroundColorLetthet);
+  border-radius: 20px !important;
+}
+
+#title {
+  font-family: "Bubblegum Sans", sans-serif;
+  color: var(--textColorGray);
+}
+
+#image-and-message-container {
+  background-color: var(--backgroundColorLetthet);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+#olaf-image {
+  align-self: center;
+}
+
+#image-and-message-container span {
+  align-self: center;
+}
+
+#bottom-container {
+  background-color: var(--backgroundColorLetthet);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}

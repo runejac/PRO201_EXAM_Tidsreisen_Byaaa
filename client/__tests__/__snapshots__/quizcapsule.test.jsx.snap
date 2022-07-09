@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quiz shows snapshot 1`] = `
+<div
+  className="d-flex position-absolute w-100 vh-100 justify-content-center"
+>
+  <div
+    className="spinner-border align-self-center"
+    role="status"
+  />
+</div>
+`;

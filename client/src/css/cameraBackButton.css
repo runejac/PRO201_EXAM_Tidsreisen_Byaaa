@@ -1,0 +1,7 @@
+#camera-back-button-container {
+    overflow: hidden;
+    position: fixed;
+    z-index: 20;
+    margin-top: 0.5rem;
+    color: var(--backgroundColorLetthet);
+}

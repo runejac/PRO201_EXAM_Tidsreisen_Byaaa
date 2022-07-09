@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile shows snapshot 1`] = `
+<div
+  className="profileContainer"
+>
+  <div
+    id="main"
+  >
+    <div
+      id="container"
+    >
+      <div
+        id="logout-container"
+      >
+        <div
+          id="logout-link"
+          onClick={[Function]}
+        >
+          <svg
+            fill="none"
+            height="1em"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"
+            />
+            <polyline
+              points="16 17 21 12 16 7"
+            />
+            <line
+              x1="21"
+              x2="9"
+              y1="12"
+              y2="12"
+            />
+          </svg>
+           
+          <span>
+            Logg ut
+          </span>
+        </div>
+      </div>
+      <div
+        id="user-information-container"
+      >
+        <h1
+          id="userName"
+        >
+          Hei
+        </h1>
+        <div
+          id="circle"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            id="icon"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M344 144c-3.92 52.87-44 96-88 96s-84.15-43.12-88-96c-4-55 35-96 88-96s92 42 88 96z"
+              fill="none"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="32"
+            />
+            <path
+              d="M256 304c-87 0-175.3 48-191.64 138.6C62.39 453.52 68.57 464 80 464h352c11.44 0 17.62-10.48 15.65-21.4C431.3 352 343 304 256 304z"
+              fill="none"
+              strokeMiterlimit="10"
+              strokeWidth="32"
+            />
+          </svg>
+        </div>
+        <div
+          id="progressBar"
+        >
+          <div
+            style={
+              Object {
+                "backgroundColor": "#333333",
+                "borderRadius": "inherit",
+                "height": "100%",
+                "maxWidth": "15rem",
+                "textAlign": "right",
+                "width": "1.6428571428571428rem",
+              }
+            }
+          />
+        </div>
+        <p
+          id="userPoints"
+        >
+          23
+          /210 poeng
+        </p>
+        <div
+          id="myfindings-button-container"
+        >
+          <button
+            id="button-capsules-letthet"
+            onClick={[Function]}
+          >
+            Mine funn
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,53 @@
+h3,
+h4,
+p {
+  color: var(--textColorGray);
+}
+
+#done-title {
+  z-index: 0;
+  font-size: 1.5rem;
+  font-family: "Source Sans Pro Bold", sans-serif;
+  color: var(--backgroundColorGreeny);
+}
+
+@media only screen and (min-width: 768px) {
+  /*Tablets [601px -> 1200px]*/
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #done-title {
+    font-size: 4rem;
+  }
+  #olof-infront {
+    height: 500px;
+  }
+  .img {
+    width: 300px;
+  }
+  .title {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .subtitle {
+    font-size: 3rem;
+  }
+
+  .media-input {
+    padding: 20px !important;
+  }
+
+  .icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .year {
+    font-size: 2rem;
+  }
+
+  .undertext {
+    font-size: 1.5rem;
+  }
+}

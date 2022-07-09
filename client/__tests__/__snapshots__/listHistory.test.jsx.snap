@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListHistory should show history 1`] = `
+<div>
+  <div
+    style="background-color: rgb(242, 241, 232); height: 100vh;"
+  >
+    <img
+      alt="bilde av vann sag effekt bakgrunn"
+      height="700"
+      id="image-saw-effect"
+      src="test-file-stub"
+    />
+    <div>
+      <div />
+    </div>
+  </div>
+</div>
+`;

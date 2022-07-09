@@ -1,0 +1,5 @@
+# Ignore artifacts:
+.parcel-cache
+dist
+node_modules
+coverage

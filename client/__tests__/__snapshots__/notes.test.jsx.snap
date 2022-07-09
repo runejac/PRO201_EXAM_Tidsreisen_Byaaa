@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notes shows snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          style="position: absolute; top: 150px; left: 20px; color: rgba(255, 255, 255, 0.271);"
+        >
+          <img
+            alt="Some note"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          style="position: absolute; bottom: 20px; left: 20px; color: rgba(255, 255, 255, 0.271);"
+        >
+          <img
+            alt="Some note"
+            src="test-file-stub"
+            width="100"
+          />
+        </div>
+        <div
+          style="position: absolute; top: 200px; right: 20px; color: rgba(255, 255, 255, 0.271); transform: scaleX(-1);"
+        >
+          <img
+            alt="Some note"
+            src="test-file-stub"
+            width="80"
+          />
+        </div>
+        <div
+          style="position: absolute; top: 500px; right: 20px; color: rgba(255, 255, 255, 0.271); transform: scaleX(-1);"
+        >
+          <img
+            alt="Some note"
+            src="test-file-stub"
+            width="50"
+          />
+        </div>
+        <div
+          style="position: absolute; top: 400px; left: 20px; color: rgba(255, 255, 255, 0.271);"
+        >
+          <img
+            alt="Some note"
+            src="test-file-stub"
+            width="50"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        style="position: absolute; top: 150px; left: 20px; color: rgba(255, 255, 255, 0.271);"
+      >
+        <img
+          alt="Some note"
+          src="test-file-stub"
+        />
+      </div>
+      <div
+        style="position: absolute; bottom: 20px; left: 20px; color: rgba(255, 255, 255, 0.271);"
+      >
+        <img
+          alt="Some note"
+          src="test-file-stub"
+          width="100"
+        />
+      </div>
+      <div
+        style="position: absolute; top: 200px; right: 20px; color: rgba(255, 255, 255, 0.271); transform: scaleX(-1);"
+      >
+        <img
+          alt="Some note"
+          src="test-file-stub"
+          width="80"
+        />
+      </div>
+      <div
+        style="position: absolute; top: 500px; right: 20px; color: rgba(255, 255, 255, 0.271); transform: scaleX(-1);"
+      >
+        <img
+          alt="Some note"
+          src="test-file-stub"
+          width="50"
+        />
+      </div>
+      <div
+        style="position: absolute; top: 400px; left: 20px; color: rgba(255, 255, 255, 0.271);"
+      >
+        <img
+          alt="Some note"
+          src="test-file-stub"
+          width="50"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

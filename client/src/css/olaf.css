@@ -1,0 +1,7 @@
+#finish-paragraph {
+  padding: 0.7rem;
+  border-radius: 20px;
+  color: var(--textColorGray);
+  background-color: #fff;
+  font-size: 16px;
+}

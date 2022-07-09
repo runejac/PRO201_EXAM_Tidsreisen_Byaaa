@@ -1,0 +1,28 @@
+on:
+  push:
+    branches:
+      - '**'        # matches every branch
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+      - name: install dependencies
+        run: npm ci
+        env:
+          MONGODB_URL: ${{ secrets.MONGODB_URL }}
+          COOKIE_SECRET: ${{ secrets.COOKIE_SECRET }}
+          MONGODB_DATABASE: ${{ secrets.MONGODB_DATABASE }}
+      - name: Collect coverage
+        uses: ArtiomTr/jest-coverage-report-action@v2
+        env:
+          MONGODB_URL: ${{ secrets.MONGODB_URL }}
+          COOKIE_SECRET: ${{ secrets.COOKIE_SECRET }}
+          MONGODB_DATABASE: ${{ secrets.MONGODB_DATABASE }}
+
+
+

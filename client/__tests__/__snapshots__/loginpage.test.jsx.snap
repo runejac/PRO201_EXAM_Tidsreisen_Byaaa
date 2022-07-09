@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage shows snapshot 1`] = `
+<section
+  id="login"
+>
+  <div
+    id="logo"
+  >
+    <h1
+      className="logo"
+    >
+      Tidsreisen
+    </h1>
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="input-div"
+    >
+      <input
+        data-testid="input-login"
+        name="username"
+        onChange={[Function]}
+        placeholder="Brukernavn"
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <button
+        id="button-capsules-yellow"
+        type="submit"
+      >
+        Gå videre
+      </button>
+    </div>
+  </form>
+  <div
+    id="logo-container"
+  >
+    <img
+      alt="Rælingen logo"
+      id="logoPic"
+      src="test-file-stub"
+      width={100}
+    />
+  </div>
+</section>
+`;

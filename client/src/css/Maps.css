@@ -1,0 +1,196 @@
+.map-container {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#map {
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.marker {
+  background-size: 50px 50px;
+  border: 2px solid #333333;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: var(--backgroundColorLetthet);
+}
+
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  background-color: var(--backgroundColorLetthet);
+}
+
+#scan-btn {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  text-align: center;
+}
+
+.capsule-btn {
+  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-size: 0.9rem;
+  background-color: var(--buttonYellowLight);
+  color: var(--textColorGray);
+  border-radius: 10px;
+  height: 3em;
+  width: 15em;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  align-items: center;
+  border: 0 none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px 20px;
+  text-align: center;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.capsule-btn:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* Add a border and shadow to the rounded rectangle */
+.mapboxgl-popup-content {
+  border: 1px solid #929292;
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Move the content above the :before element so rotated rectangle doesn't cover content */
+.mapboxgl-popup-content div {
+  position: relative;
+  z-index: 5;
+}
+
+/* This is the new tip */
+.mapboxgl-popup-content:before {
+  content: "";
+  position: absolute;
+  /* I've found 9px looks better than 10px */
+  top: -webkit-calc(100% - 9px);
+  top: calc(100% - 9px);
+  left: calc(50% - 10px);
+  height: 20px;
+  width: 20px;
+  background: white;
+  transform: rotate(45deg);
+  border-bottom: inherit;
+  border-right: inherit;
+  /* The shadow is translated down a bit so it doesn't show inside the pop-up */
+  box-shadow: 4px 4px 4px -1px rgba(0, 0, 0, 0.1);
+  z-index: 4;
+}
+
+/* Since the new tip is absolutely-positioned, it doesn't force the rectangle up on its own */
+.mapboxgl-popup {
+  margin-top: -10px;
+}
+
+/* Hide the old tip */
+.mapboxgl-popup-tip {
+  display: none;
+}
+
+.mapboxgl-control-container {
+  display: none;
+}
+
+.form-check,
+.form-switch {
+  font-size: 1.5rem;
+}
+
+#custom-switch {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(231, 231, 231, 0.836);
+  left: 0;
+  top: 0;
+  right: 0;
+  zoom: 1;
+  padding: 1rem;
+}
+@media only screen and (max-width: 1000px) {
+  /*Tablets [601px -> 1200px]*/
+}
+
+.form-check-label {
+  position: absolute;
+  right: 80px;
+  width: 100px;
+}
+
+.form-check-label {
+  padding-left: 10px;
+  color: black;
+}
+
+.mapboxgl-popup-close-button {
+  margin: 2px;
+  font-size: 30px;
+}
+
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #custom-switch {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    zoom: 1;
+    left: 90%;
+  }
+
+  .form-check-label {
+    padding-left: 10px;
+    color: black;
+    font-size: 1.8rem;
+  }
+
+  .form-check-input {
+    width: 200px;
+    height: 200px;
+  }
+
+  .form-check-label {
+    position: absolute;
+    right: 80px;
+    width: 120px;
+  }
+}
+ */

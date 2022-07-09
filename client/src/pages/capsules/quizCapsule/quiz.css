@@ -1,0 +1,128 @@
+.question {
+  color: white;
+  background-color: var(--backgroundColorGreeny);
+  font-family: "Bubblegum Sans", cursive;
+  border: solid;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 10px;
+}
+
+#done-title {
+  font-size: 1.5rem;
+  font-family: "Source Sans Pro Bold", sans-serif;
+  color: var(--backgroundColorGreeny);
+}
+
+.score {
+  color: var(--backgroundColorGreeny);
+  font-weight: bold;
+}
+.quiz {
+  background-image: url("../../../assets/images/backgrounds/background-quiz.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.capsule-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.category {
+  font-weight: bold;
+
+  padding-top: 00.5rem;
+  text-align: center;
+  padding-bottom: 4rem;
+  color: var(--backgroundColorGreeny);
+}
+
+.button-container {
+  display: grid;
+  justify-content: center;
+}
+
+.quiz {
+  text-align: center;
+}
+
+.points {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.completed,
+.result {
+  font-weight: bold;
+}
+
+/*IPAD MEDIA QUERIES
+  Sliter med font-størrelse på knappene
+*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #done-title {
+    font-size: 4rem;
+  }
+  #olof-infront {
+    height: 500px;
+  }
+  #finish-paragraph {
+    font-size: 2rem !important;
+  }
+  .question {
+    color: white;
+    background-color: var(--backgroundColorGreeny);
+    font-family: "Bubblegum Sans", cursive;
+    border: solid;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+  }
+
+  .capsule-title {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .category {
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    padding-bottom: 6rem;
+    color: var(--backgroundColorGreeny);
+  }
+
+  .button-container {
+    display: grid;
+    justify-content: center;
+  }
+
+  .completed {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  .result {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .points {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .links {
+    display: grid;
+    place-items: center;
+  }
+}

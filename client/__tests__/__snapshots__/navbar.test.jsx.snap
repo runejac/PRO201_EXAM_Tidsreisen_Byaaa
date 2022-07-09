@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar shows snapshot 1`] = `
+<header
+  style={
+    Object {
+      "position": "fixed",
+      "width": "100%",
+      "zIndex": "20",
+    }
+  }
+>
+  <div
+    id="navbar-container"
+  >
+    <div
+      className="navbar"
+    >
+      <nav
+        className="nav-menu"
+      >
+        <ul
+          className="nav-menu-items"
+        >
+          <div>
+            <li>
+              <a
+                className="icon-and-title"
+                href="/map"
+                id="nav-text-map"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#000000",
+                    "opacity": "0.6",
+                  }
+                }
+              >
+                <svg
+                  fill="currentColor"
+                  height={20}
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 24 24"
+                  width={20}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M2 5l7-3 6 3 6.303-2.701a.5.5 0 0 1 .697.46V19l-7 3-6-3-6.303 2.701a.5.5 0 0 1-.697-.46V5zm14 14.395l4-1.714V5.033l-4 1.714v12.648zm-2-.131V6.736l-4-2v12.528l4 2zm-6-2.011V4.605L4 6.319v12.648l4-1.714z"
+                    />
+                  </g>
+                </svg>
+                <span>
+                  Kart
+                </span>
+              </a>
+            </li>
+          </div>
+          <div>
+            <li>
+              <a
+                className="icon-and-title"
+                href="/camera"
+                id="nav-text-qr"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#000000",
+                    "opacity": "0.6",
+                  }
+                }
+              >
+                <svg
+                  fill="currentColor"
+                  height={20}
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 24 24"
+                  width={20}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M15 3h6v5h-2V5h-4V3zM9 3v2H5v3H3V3h6zm6 18v-2h4v-3h2v5h-6zm-6 0H3v-5h2v3h4v2zM3 11h18v2H3v-2z"
+                    />
+                  </g>
+                </svg>
+                <span>
+                  QR-scan
+                </span>
+              </a>
+            </li>
+          </div>
+          <div>
+            <li>
+              <a
+                className="icon-and-title"
+                href="/profile"
+                id="nav-text-profile"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "color": "#000000",
+                    "opacity": "0.6",
+                  }
+                }
+              >
+                <svg
+                  fill="currentColor"
+                  height={20}
+                  stroke="currentColor"
+                  strokeWidth="0"
+                  style={
+                    Object {
+                      "color": undefined,
+                    }
+                  }
+                  viewBox="0 0 24 24"
+                  width={20}
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g>
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M20 22h-2v-2a3 3 0 0 0-3-3H9a3 3 0 0 0-3 3v2H4v-2a5 5 0 0 1 5-5h6a5 5 0 0 1 5 5v2zm-8-9a6 6 0 1 1 0-12 6 6 0 0 1 0 12zm0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"
+                    />
+                  </g>
+                </svg>
+                <span>
+                  Profil
+                </span>
+              </a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+`;

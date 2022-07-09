@@ -1,0 +1,891 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyFindingsCard shows snapshot 1`] = `
+Array [
+  <div
+    id="single-container"
+  >
+    <div
+      className="card mb-3 card-nonvisited"
+      id="card"
+      onClick={[Function]}
+      style={
+        Object {
+          "maxWidth": "540px",
+        }
+      }
+    >
+      <div
+        className="row g-0"
+        id="content-container"
+      >
+        <div
+          className="col-5"
+          id="image-container"
+        >
+          <img
+            alt="dummyalttext"
+            className="img-fluid"
+            id="image"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          className="col-6"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Vesledammen
+            </h5>
+            <p
+              className="card-text"
+            >
+              <svg
+                color="var(--textColorGray)"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": "var(--textColorGray)",
+                  }
+                }
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M892.1 737.8l-110.3-63.7a15.9 15.9 0 0 0-21.7 5.9l-19.9 34.5c-4.4 7.6-1.8 17.4 5.8 21.8L856.3 800a15.9 15.9 0 0 0 21.7-5.9l19.9-34.5c4.4-7.6 1.7-17.4-5.8-21.8zM760 344a15.9 15.9 0 0 0 21.7 5.9L892 286.2c7.6-4.4 10.2-14.2 5.8-21.8L878 230a15.9 15.9 0 0 0-21.7-5.9L746 287.8a15.99 15.99 0 0 0-5.8 21.8L760 344zm174 132H806c-8.8 0-16 7.2-16 16v40c0 8.8 7.2 16 16 16h128c8.8 0 16-7.2 16-16v-40c0-8.8-7.2-16-16-16zM625.9 115c-5.9 0-11.9 1.6-17.4 5.3L254 352H90c-8.8 0-16 7.2-16 16v288c0 8.8 7.2 16 16 16h164l354.5 231.7c5.5 3.6 11.6 5.3 17.4 5.3 16.7 0 32.1-13.3 32.1-32.1V147.1c0-18.8-15.4-32.1-32.1-32.1z"
+                />
+              </svg>
+               
+              Lydkapsel
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-1"
+          id="done-icon-nonvisited"
+        >
+          <svg
+            color="var(--textColorGray)"
+            fill="none"
+            height={40}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "var(--textColorGray)",
+              }
+            }
+            viewBox="0 0 24 24"
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="single-container"
+  >
+    <div
+      className="card mb-3 card-nonvisited"
+      id="card"
+      onClick={[Function]}
+      style={
+        Object {
+          "maxWidth": "540px",
+        }
+      }
+    >
+      <div
+        className="row g-0"
+        id="content-container"
+      >
+        <div
+          className="col-5"
+          id="image-container"
+        >
+          <img
+            alt="dummyalttext"
+            className="img-fluid"
+            id="image"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          className="col-6"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Kvernhus
+            </h5>
+            <p
+              className="card-text"
+            >
+              <svg
+                color="var(--textColorGray)"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": "var(--textColorGray)",
+                  }
+                }
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"
+                />
+              </svg>
+               
+              Historiekapsel
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-1"
+          id="done-icon-nonvisited"
+        >
+          <svg
+            color="var(--textColorGray)"
+            fill="none"
+            height={40}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "var(--textColorGray)",
+              }
+            }
+            viewBox="0 0 24 24"
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="single-container"
+  >
+    <div
+      className="card mb-3 card-nonvisited"
+      id="card"
+      onClick={[Function]}
+      style={
+        Object {
+          "maxWidth": "540px",
+        }
+      }
+    >
+      <div
+        className="row g-0"
+        id="content-container"
+      >
+        <div
+          className="col-5"
+          id="image-container"
+        >
+          <img
+            alt="dummyalttext"
+            className="img-fluid"
+            id="image"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          className="col-6"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Kvernhus
+            </h5>
+            <p
+              className="card-text"
+            >
+              <svg
+                color="var(--textColorGray)"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": "var(--textColorGray)",
+                  }
+                }
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z"
+                />
+                <path
+                  d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-5.99 13c-.59 0-1.05-.47-1.05-1.05 0-.59.47-1.04 1.05-1.04.59 0 1.04.45 1.04 1.04-.01.58-.45 1.05-1.04 1.05zm2.5-6.17c-.63.93-1.23 1.21-1.56 1.81-.13.24-.18.4-.18 1.18h-1.52c0-.41-.06-1.08.26-1.65.41-.73 1.18-1.16 1.63-1.8.48-.68.21-1.94-1.14-1.94-.88 0-1.32.67-1.5 1.23l-1.37-.57C11.51 5.96 12.52 5 13.99 5c1.23 0 2.08.56 2.51 1.26.37.61.58 1.73.01 2.57z"
+                />
+              </svg>
+               
+              Quizkapsel
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-1"
+          id="done-icon-nonvisited"
+        >
+          <svg
+            color="var(--textColorGray)"
+            fill="none"
+            height={40}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "var(--textColorGray)",
+              }
+            }
+            viewBox="0 0 24 24"
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="single-container"
+  >
+    <div
+      className="card mb-3 card-nonvisited"
+      id="card"
+      onClick={[Function]}
+      style={
+        Object {
+          "maxWidth": "540px",
+        }
+      }
+    >
+      <div
+        className="row g-0"
+        id="content-container"
+      >
+        <div
+          className="col-5"
+          id="image-container"
+        >
+          <img
+            alt="dummyalttext"
+            className="img-fluid"
+            id="image"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          className="col-6"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Vegfar
+            </h5>
+            <p
+              className="card-text"
+            >
+              <svg
+                color="var(--textColorGray)"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": "var(--textColorGray)",
+                  }
+                }
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M892.1 737.8l-110.3-63.7a15.9 15.9 0 0 0-21.7 5.9l-19.9 34.5c-4.4 7.6-1.8 17.4 5.8 21.8L856.3 800a15.9 15.9 0 0 0 21.7-5.9l19.9-34.5c4.4-7.6 1.7-17.4-5.8-21.8zM760 344a15.9 15.9 0 0 0 21.7 5.9L892 286.2c7.6-4.4 10.2-14.2 5.8-21.8L878 230a15.9 15.9 0 0 0-21.7-5.9L746 287.8a15.99 15.99 0 0 0-5.8 21.8L760 344zm174 132H806c-8.8 0-16 7.2-16 16v40c0 8.8 7.2 16 16 16h128c8.8 0 16-7.2 16-16v-40c0-8.8-7.2-16-16-16zM625.9 115c-5.9 0-11.9 1.6-17.4 5.3L254 352H90c-8.8 0-16 7.2-16 16v288c0 8.8 7.2 16 16 16h164l354.5 231.7c5.5 3.6 11.6 5.3 17.4 5.3 16.7 0 32.1-13.3 32.1-32.1V147.1c0-18.8-15.4-32.1-32.1-32.1z"
+                />
+              </svg>
+               
+              Lydkapsel
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-1"
+          id="done-icon-nonvisited"
+        >
+          <svg
+            color="var(--textColorGray)"
+            fill="none"
+            height={40}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "var(--textColorGray)",
+              }
+            }
+            viewBox="0 0 24 24"
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="single-container"
+  >
+    <div
+      className="card mb-3 card-nonvisited"
+      id="card"
+      onClick={[Function]}
+      style={
+        Object {
+          "maxWidth": "540px",
+        }
+      }
+    >
+      <div
+        className="row g-0"
+        id="content-container"
+      >
+        <div
+          className="col-5"
+          id="image-container"
+        >
+          <img
+            alt="dummyalttext"
+            className="img-fluid"
+            id="image"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          className="col-6"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Sagtuft
+            </h5>
+            <p
+              className="card-text"
+            >
+              <svg
+                color="var(--textColorGray)"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": "var(--textColorGray)",
+                  }
+                }
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"
+                />
+              </svg>
+               
+              Historiekapsel
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-1"
+          id="done-icon-nonvisited"
+        >
+          <svg
+            color="var(--textColorGray)"
+            fill="none"
+            height={40}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "var(--textColorGray)",
+              }
+            }
+            viewBox="0 0 24 24"
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="single-container"
+  >
+    <div
+      className="card mb-3 card-nonvisited"
+      id="card"
+      onClick={[Function]}
+      style={
+        Object {
+          "maxWidth": "540px",
+        }
+      }
+    >
+      <div
+        className="row g-0"
+        id="content-container"
+      >
+        <div
+          className="col-5"
+          id="image-container"
+        >
+          <img
+            alt="dummyalttext"
+            className="img-fluid"
+            id="image"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          className="col-6"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Sagbruk
+            </h5>
+            <p
+              className="card-text"
+            >
+              <svg
+                color="var(--textColorGray)"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": "var(--textColorGray)",
+                  }
+                }
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z"
+                />
+                <path
+                  d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-5.99 13c-.59 0-1.05-.47-1.05-1.05 0-.59.47-1.04 1.05-1.04.59 0 1.04.45 1.04 1.04-.01.58-.45 1.05-1.04 1.05zm2.5-6.17c-.63.93-1.23 1.21-1.56 1.81-.13.24-.18.4-.18 1.18h-1.52c0-.41-.06-1.08.26-1.65.41-.73 1.18-1.16 1.63-1.8.48-.68.21-1.94-1.14-1.94-.88 0-1.32.67-1.5 1.23l-1.37-.57C11.51 5.96 12.52 5 13.99 5c1.23 0 2.08.56 2.51 1.26.37.61.58 1.73.01 2.57z"
+                />
+              </svg>
+               
+              Quizkapsel
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-1"
+          id="done-icon-nonvisited"
+        >
+          <svg
+            color="var(--textColorGray)"
+            fill="none"
+            height={40}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "var(--textColorGray)",
+              }
+            }
+            viewBox="0 0 24 24"
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="single-container"
+  >
+    <div
+      className="card mb-3 card-nonvisited"
+      id="card"
+      onClick={[Function]}
+      style={
+        Object {
+          "maxWidth": "540px",
+        }
+      }
+    >
+      <div
+        className="row g-0"
+        id="content-container"
+      >
+        <div
+          className="col-5"
+          id="image-container"
+        >
+          <img
+            alt="dummyalttext"
+            className="img-fluid"
+            id="image"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          className="col-6"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Vannsag
+            </h5>
+            <p
+              className="card-text"
+            >
+              <svg
+                color="var(--textColorGray)"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": "var(--textColorGray)",
+                  }
+                }
+                viewBox="0 0 1024 1024"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M892.1 737.8l-110.3-63.7a15.9 15.9 0 0 0-21.7 5.9l-19.9 34.5c-4.4 7.6-1.8 17.4 5.8 21.8L856.3 800a15.9 15.9 0 0 0 21.7-5.9l19.9-34.5c4.4-7.6 1.7-17.4-5.8-21.8zM760 344a15.9 15.9 0 0 0 21.7 5.9L892 286.2c7.6-4.4 10.2-14.2 5.8-21.8L878 230a15.9 15.9 0 0 0-21.7-5.9L746 287.8a15.99 15.99 0 0 0-5.8 21.8L760 344zm174 132H806c-8.8 0-16 7.2-16 16v40c0 8.8 7.2 16 16 16h128c8.8 0 16-7.2 16-16v-40c0-8.8-7.2-16-16-16zM625.9 115c-5.9 0-11.9 1.6-17.4 5.3L254 352H90c-8.8 0-16 7.2-16 16v288c0 8.8 7.2 16 16 16h164l354.5 231.7c5.5 3.6 11.6 5.3 17.4 5.3 16.7 0 32.1-13.3 32.1-32.1V147.1c0-18.8-15.4-32.1-32.1-32.1z"
+                />
+              </svg>
+               
+              Lydkapsel
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-1"
+          id="done-icon-nonvisited"
+        >
+          <svg
+            color="var(--textColorGray)"
+            fill="none"
+            height={40}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "var(--textColorGray)",
+              }
+            }
+            viewBox="0 0 24 24"
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="single-container"
+  >
+    <div
+      className="card mb-3 card-nonvisited"
+      id="card"
+      onClick={[Function]}
+      style={
+        Object {
+          "maxWidth": "540px",
+        }
+      }
+    >
+      <div
+        className="row g-0"
+        id="content-container"
+      >
+        <div
+          className="col-5"
+          id="image-container"
+        >
+          <img
+            alt="dummyalttext"
+            className="img-fluid"
+            id="image"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          className="col-6"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Sagbruk
+            </h5>
+            <p
+              className="card-text"
+            >
+              <svg
+                color="var(--textColorGray)"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": "var(--textColorGray)",
+                  }
+                }
+                viewBox="0 0 448 512"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"
+                />
+              </svg>
+               
+              Historiekapsel
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-1"
+          id="done-icon-nonvisited"
+        >
+          <svg
+            color="var(--textColorGray)"
+            fill="none"
+            height={40}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "var(--textColorGray)",
+              }
+            }
+            viewBox="0 0 24 24"
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    id="single-container"
+  >
+    <div
+      className="card mb-3 card-nonvisited"
+      id="card"
+      onClick={[Function]}
+      style={
+        Object {
+          "maxWidth": "540px",
+        }
+      }
+    >
+      <div
+        className="row g-0"
+        id="content-container"
+      >
+        <div
+          className="col-5"
+          id="image-container"
+        >
+          <img
+            alt="dummyalttext"
+            className="img-fluid"
+            id="image"
+            src="test-file-stub"
+          />
+        </div>
+        <div
+          className="col-6"
+        >
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Hulvei
+            </h5>
+            <p
+              className="card-text"
+            >
+              <svg
+                color="var(--textColorGray)"
+                fill="currentColor"
+                height="1em"
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": "var(--textColorGray)",
+                  }
+                }
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 0h24v24H0V0z"
+                  fill="none"
+                />
+                <path
+                  d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6z"
+                />
+                <path
+                  d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-5.99 13c-.59 0-1.05-.47-1.05-1.05 0-.59.47-1.04 1.05-1.04.59 0 1.04.45 1.04 1.04-.01.58-.45 1.05-1.04 1.05zm2.5-6.17c-.63.93-1.23 1.21-1.56 1.81-.13.24-.18.4-.18 1.18h-1.52c0-.41-.06-1.08.26-1.65.41-.73 1.18-1.16 1.63-1.8.48-.68.21-1.94-1.14-1.94-.88 0-1.32.67-1.5 1.23l-1.37-.57C11.51 5.96 12.52 5 13.99 5c1.23 0 2.08.56 2.51 1.26.37.61.58 1.73.01 2.57z"
+                />
+              </svg>
+               
+              Quizkapsel
+            </p>
+          </div>
+        </div>
+        <div
+          className="col-1"
+          id="done-icon-nonvisited"
+        >
+          <svg
+            color="var(--textColorGray)"
+            fill="none"
+            height={40}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": "var(--textColorGray)",
+              }
+            }
+            viewBox="0 0 24 24"
+            width={40}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

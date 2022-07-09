@@ -1,0 +1,86 @@
+#container {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--backgroundColorGreeny);
+  overflow: auto;
+  padding-bottom: 10rem;
+  padding-top: 3rem;
+}
+
+#single-container {
+  margin: 0 1rem 0 1rem;
+}
+
+.card {
+  position: relative;
+  top: 10%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card-nonvisited::before {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 10px;
+  background-color: rgba(86, 94, 100, 0.84);
+}
+
+.card-nonvisited {
+  pointer-events: none;
+}
+
+#card {
+  background-color: var(--backgroundColorLetthet);
+  border: none;
+  border-radius: 10px;
+  margin-top: 0.2rem;
+  /*background: linear-gradient(
+    to right,
+    rgba(50, 70, 80, 0.7),
+    rgba(30, 20, 150, 0.7)
+  );*/
+  /*box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 67%);*/
+}
+
+#image {
+  border-radius: 10px 0 0 10px;
+}
+
+#image-container {
+  width: 35%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+}
+
+.card-title {
+  font-family: "Source Sans Pro Bold", sans-serif;
+  font-size: 1.4rem;
+  color: var(--textColorGray);
+}
+
+.card-text {
+  font-family: "Source Sans Pro Semibold Italic", sans-serif;
+  color: var(--textColorGray);
+  font-size: 1.125rem;
+}
+
+.card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#done-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#done-icon-nonvisited {
+  visibility: hidden;
+}

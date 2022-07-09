@@ -1,0 +1,154 @@
+#olaf-left {
+  position: absolute;
+  margin-top: 7rem;
+  z-index: 5;
+  pointer-events: none;
+}
+
+#done-container {
+  height: 35rem;
+}
+
+#capsule-name {
+  color: var(--textColorGray);
+  font-family: "Source Sans Pro Semibold", sans-serif;
+}
+
+#history-image {
+  max-height: 340px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#olaf-infront {
+  pointer-events: none;
+}
+
+.swiper-horizontal > .swiper-scrollbar {
+  height: 0.5rem;
+  position: fixed;
+}
+
+.swiper-slide {
+  height: 80vh;
+  width: 100%;
+  top: -3%;
+}
+
+#year {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  bottom: -2rem;
+}
+
+#year {
+  bottom: 10%;
+  font-family: "Source Sans Pro Semibold", sans-serif;
+  background: transparent;
+  font-size: 2rem;
+}
+
+#done-title {
+  font-size: 1.5rem;
+  font-family: "Source Sans Pro Bold", sans-serif;
+  color: var(--backgroundColorGreeny);
+}
+
+#year,
+#finish-paragraph {
+  font-family: "Source Sans Pro Bold", sans-serif;
+  font-size: 1.125rem;
+}
+
+#story-section {
+  min-height: 12rem;
+  color: var(--textColorGray);
+}
+
+#story-paragraph {
+  font-family: "Source Sans Pro Bold", sans-serif;
+  font-size: 1.05rem;
+}
+
+#history-points {
+  font-family: "Source Sans Pro Bold", sans-serif;
+  font-size: 1.7rem;
+}
+
+#image-saw-effect {
+  position: fixed;
+  top: -12rem;
+  left: -12rem;
+  opacity: 0.6;
+}
+
+/*#image-container {
+  max-width: 45rem;
+}*/
+
+@media (min-width: 768px) {
+  #image-saw-effect {
+    height: 1024px;
+  }
+
+  #done-title {
+    font-size: 3rem;
+  }
+
+  #story-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  #story-paragraph {
+    font-size: 1.5rem;
+    align-self: center;
+    width: 40rem;
+    text-align: left;
+  }
+
+  #year {
+    bottom: 5%;
+  }
+
+  #year > h4 {
+    font-size: 2.5rem;
+  }
+
+  #slide-container {
+    height: 80vh;
+    width: 100%;
+  }
+
+  #history-image {
+    max-height: 1024px;
+  }
+
+  #points-and-buttons-container {
+    height: 100%;
+  }
+
+  #done-container {
+    height: 50rem;
+  }
+
+  #olaf-infront-div > div > p {
+    font-size: 2rem;
+  }
+
+  #done-text {
+    position: relative;
+  }
+
+  #olaf-infront-img {
+    height: 500px;
+  }
+
+  #capsule-name {
+    font-size: 3rem;
+  }
+}

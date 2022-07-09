@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro Regular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+}
+
+.bg-capsule {
+  background-color: var(--backgroundColorLetthet);
+}
+.text-capsule {
+  color: var(--backgroundColorGreeny);
+}
+
+:root {
+  --buttonColorGreen: #bbd7a7;
+  --buttonYellowLight: #fff3b0;
+  --backgroundColorGreeny: #4a8554;
+  --backgroundColorLetthet: #f2f1e8;
+  --textColorGray: #333333;
+}
+
+@font-face {
+  font-family: "Bubblegum Sans";
+  src: url("/client/src/assets/fonts/bubblegum_sans/BubblegumSans-Regular.woff2")
+      format("woff2"),
+    url("/client/src/assets/fonts/bubblegum_sans/BubblegumSans-Regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Regular";
+  src: url("/client/src/assets/fonts/source_sans_pro/SourceSansPro-Regular.woff2")
+      format("woff2"),
+    url("/client/src/assets/fonts/source_sans_pro/SourceSansPro-Regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Semibold";
+  src: url("/client/src/assets/fonts/source_sans_pro/SourceSansPro-SemiBold.woff2")
+      format("woff2"),
+    url("/client/src/assets/fonts/source_sans_pro/SourceSansPro-SemiBold.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Semibold Italic";
+  src: url("/client/src/assets/fonts/source_sans_pro/SourceSansPro-SemiBoldItalic.woff2")
+      format("woff2"),
+    url("/client/src/assets/fonts/source_sans_pro/SourceSansPro-SemiBoldItalic.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Source Sans Pro Bold";
+  src: url("/client/src/assets/fonts/source_sans_pro/SourceSansPro-Bold.woff2")
+      format("woff2"),
+    url("/client/src/assets/fonts/source_sans_pro/SourceSansPro-Bold.woff")
+      format("woff");
+}
+
+#button-capsules-yellow {
+  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-size: 1.125rem;
+  background-color: var(--buttonYellowLight);
+  color: var(--textColorGray);
+  border-radius: 10px;
+  border-style: none;
+  height: 3em;
+  width: 15em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#button-capsules-green {
+  font-family: "Source Sans Pro Semibold", sans-serif;
+  font-size: 1.125rem;
+  background-color: var(--buttonColorGreen);
+  color: var(--textColorGray);
+  border-radius: 10px;
+  border-style: none;
+  height: 3em;
+  width: 15em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-bottom: 1.5rem;
+}
+
+#button-capsules-letthet {
+  font-family: "Source Sans Pro Bold", sans-serif;
+  font-size: 1.125rem;
+  background-color: var(--backgroundColorLetthet);
+  color: var(--textColorGray);
+  border-radius: 10px;
+  border-style: none;
+  height: 3em;
+  width: 15em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-bottom: 1.5rem;
+}
+
+/*IPAD MEDIA QUERIES*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  #button-capsules-green {
+    font-family: "Source Sans Pro Semibold", sans-serif;
+    font-size: 1.5rem;
+    background-color: var(--buttonColorGreen);
+    color: var(--textColorGray);
+    border-radius: 10px;
+    border-style: none;
+    height: 4em;
+    width: 20em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 1.5rem;
+  }
+  #button-capsules-letthet {
+    font-family: "Source Sans Pro Bold", sans-serif;
+    font-size: 1.5rem;
+    background-color: var(--backgroundColorLetthet);
+    color: var(--textColorGray);
+    border-radius: 10px;
+    border-style: none;
+    height: 3em;
+    width: 15em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 1.5rem;
+  }
+}
