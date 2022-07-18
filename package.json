@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.18.2",
-    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-env": "^7.18.9",
     "@babel/preset-react": "^7.16.7",
     "@parcel/transformer-sass": "^2.5.0",
     "@shelf/jest-mongodb": "^3.0.1",
