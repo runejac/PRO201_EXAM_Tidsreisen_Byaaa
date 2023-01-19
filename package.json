@@ -19,7 +19,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@parcel/config-default": "^2.5.0",
+    "@parcel/config-default": "^2.8.3",
     "@parcel/packager-raw-url": "^2.5.0",
     "@parcel/service-worker": "^2.5.0",
     "@parcel/transformer-raw": "^2.5.0",
